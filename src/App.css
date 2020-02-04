@@ -1,0 +1,27 @@
+:root {
+  --mainBlue: #2A2A72;
+  --lightBlue: #009FFD;
+  --mainWhite: #F3F3F3;
+  --mainDark: #232528;
+  --mainYellow: #FFA400;
+}
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: "Indie Flower", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
