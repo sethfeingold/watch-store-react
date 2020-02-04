@@ -8,7 +8,7 @@ export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
+                <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
                     <Link to="/">
                         {/* Icons made by Kiranshastry from www.flaticon.com */}
                         <img src={logo} alt="store"  />
@@ -16,7 +16,7 @@ export default class Navbar extends Component {
                     <ul className="navbar-nav align-items-center">
                         <li className="nav-item ml-5">
                             <Link to="/" className="nav-link">
-                                products
+                                watches
                             </Link>
                         </li>
                     </ul>
@@ -28,8 +28,17 @@ export default class Navbar extends Component {
                             my cart
                         </ButtonContainer>
                     </Link>
-                </nav>
+                </NavWrapper>
             </div>
         )
     }
 }
+
+const NavWrapper = styled.nav`
+    background: var(--mainBlue);
+    .nav-link{
+        color:var(--mainWhite)!important;
+        font-size: 1.3rem;
+        text-transform: capitalize;
+    }
+`;
