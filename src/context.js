@@ -10,7 +10,7 @@ class ProductProvider extends Component {
     state = {
         products: storeProducts,
         detailProduct,
-        cart: [],
+        cart: storeProducts,
         modalOpen: false,
         modalProduct: detailProduct,
         cartSubtotal: 0,
@@ -110,15 +110,15 @@ class ProductProvider extends Component {
     render() {
         return (
             <ProductContext.Provider value={{
-...this.state,
-handleDetail: this.handleDetail,
-addToCart: this.addToCart,
-openModal: this.openModal,
-closeModal: this.closeModal,
-increment: this.increment,
-decrement: this.decrement,
-removeFromCart: this.removeFromCart,
-clearCart: this.clearCart
+                ...this.state,
+                handleDetail: this.handleDetail,
+                addToCart: this.addToCart,
+                openModal: this.openModal,
+                closeModal: this.closeModal,
+                increment: this.increment,
+                decrement: this.decrement,
+                removeFromCart: this.removeFromCart,
+                clearCart: this.clearCart
             }}>
                 {this.props.children}
             </ProductContext.Provider>
