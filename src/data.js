@@ -25,7 +25,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "PP 5711 - Nautilus",
+    title: "Patek Philippe 5711 - Nautilus",
     img: "img/watch-3.jpg",
     price: 29800,
     company: "Patek Philippe",
