@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/watch-store-react/static/css/main.75cf5997.chunk.css",
-    "main.js": "/watch-store-react/static/js/main.04bf0b80.chunk.js",
-    "main.js.map": "/watch-store-react/static/js/main.04bf0b80.chunk.js.map",
+    "main.js": "/watch-store-react/static/js/main.cc38a93c.chunk.js",
+    "main.js.map": "/watch-store-react/static/js/main.cc38a93c.chunk.js.map",
     "runtime-main.js": "/watch-store-react/static/js/runtime-main.3190790f.js",
     "runtime-main.js.map": "/watch-store-react/static/js/runtime-main.3190790f.js.map",
     "static/css/2.47e06e2e.chunk.css": "/watch-store-react/static/css/2.47e06e2e.chunk.css",
     "static/js/2.e8b7cd61.chunk.js": "/watch-store-react/static/js/2.e8b7cd61.chunk.js",
     "static/js/2.e8b7cd61.chunk.js.map": "/watch-store-react/static/js/2.e8b7cd61.chunk.js.map",
     "index.html": "/watch-store-react/index.html",
-    "precache-manifest.da4f508431100b02bc5bd35555e41b0d.js": "/watch-store-react/precache-manifest.da4f508431100b02bc5bd35555e41b0d.js",
+    "precache-manifest.0453ba6a2b3154c5ee2eb1cb9db2c5fb.js": "/watch-store-react/precache-manifest.0453ba6a2b3154c5ee2eb1cb9db2c5fb.js",
     "service-worker.js": "/watch-store-react/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/watch-store-react/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.75cf5997.chunk.css.map": "/watch-store-react/static/css/main.75cf5997.chunk.css.map",
     "static/js/2.e8b7cd61.chunk.js.LICENSE.txt": "/watch-store-react/static/js/2.e8b7cd61.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/watch-store-react/static/media/logo.225121d2.svg"
+    "static/media/logo.svg": "/watch-store-react/static/media/logo.b40922ed.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3190790f.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.e8b7cd61.chunk.js",
     "static/css/main.75cf5997.chunk.css",
-    "static/js/main.04bf0b80.chunk.js"
+    "static/js/main.cc38a93c.chunk.js"
   ]
 }
